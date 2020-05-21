@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		846E45B2247679C6009FA4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E45B1247679C6009FA4EB /* AppDelegate.swift */; };
 		846E45B4247679C6009FA4EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E45B3247679C6009FA4EB /* SceneDelegate.swift */; };
-		846E45B6247679C6009FA4EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E45B5247679C6009FA4EB /* ViewController.swift */; };
 		846E45B9247679C6009FA4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E45B7247679C6009FA4EB /* Main.storyboard */; };
 		846E45BC247679C6009FA4EB /* OSCoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846E45BA247679C6009FA4EB /* OSCoreDataTest.xcdatamodeld */; };
 		846E45BE247679C8009FA4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E45BD247679C8009FA4EB /* Assets.xcassets */; };
 		846E45C1247679C8009FA4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E45BF247679C8009FA4EB /* LaunchScreen.storyboard */; };
+		846E45C924769FD0009FA4EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E45C824769FD0009FA4EB /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		846E45AE247679C6009FA4EB /* OSCoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSCoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E45B1247679C6009FA4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846E45B3247679C6009FA4EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		846E45B5247679C6009FA4EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		846E45B8247679C6009FA4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846E45BB247679C6009FA4EB /* OSCoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OSCoreDataTest.xcdatamodel; sourceTree = "<group>"; };
 		846E45BD247679C8009FA4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846E45C0247679C8009FA4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846E45C2247679C8009FA4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E45C824769FD0009FA4EB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		846E45B0247679C6009FA4EB /* OSCoreDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				846E45C824769FD0009FA4EB /* TableViewController.swift */,
 				846E45B1247679C6009FA4EB /* AppDelegate.swift */,
 				846E45B3247679C6009FA4EB /* SceneDelegate.swift */,
-				846E45B5247679C6009FA4EB /* ViewController.swift */,
 				846E45B7247679C6009FA4EB /* Main.storyboard */,
 				846E45BD247679C8009FA4EB /* Assets.xcassets */,
 				846E45BF247679C8009FA4EB /* LaunchScreen.storyboard */,
@@ -142,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				846E45BC247679C6009FA4EB /* OSCoreDataTest.xcdatamodeld in Sources */,
-				846E45B6247679C6009FA4EB /* ViewController.swift in Sources */,
 				846E45B2247679C6009FA4EB /* AppDelegate.swift in Sources */,
 				846E45B4247679C6009FA4EB /* SceneDelegate.swift in Sources */,
+				846E45C924769FD0009FA4EB /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
